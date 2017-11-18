@@ -1,0 +1,7 @@
+*.DS_Store
+.vscode/
+ssd_mobilenet*.tar.gz
+ssd_mobilenet*/
+171118*.jpg
+local_test
+
