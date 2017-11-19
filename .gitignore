@@ -3,5 +3,5 @@
 ssd_mobilenet*.tar.gz
 ssd_mobilenet*/
 171118*.jpg
-local_test
-
+local_test/
+models/
