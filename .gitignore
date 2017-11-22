@@ -5,3 +5,4 @@ ssd_mobilenet*/
 171118*.jpg
 local_test/
 models/
+*.m4v

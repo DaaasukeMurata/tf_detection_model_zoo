@@ -2,7 +2,7 @@
 
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md
 
-- Kimura's page about object detection
+- Kimura-san's page about object detection
 
 https://github.com/HidetoKimura/carnd_object_detection
 
