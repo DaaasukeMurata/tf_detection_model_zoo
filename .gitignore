@@ -6,3 +6,4 @@ ssd_mobilenet*/
 local_test/
 models/
 *.m4v
+.ipynb_checkpoint/
