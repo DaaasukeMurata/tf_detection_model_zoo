@@ -2,8 +2,9 @@
 .vscode/
 ssd_mobilenet*.tar.gz
 ssd_mobilenet*/
+faster_rcnn_inception_*/
 171118*.jpg
 local_test/
 models/
 *.m4v
-.ipynb_checkpoint/
+.ipynb_checkpoints/
