@@ -12,7 +12,7 @@ https://github.com/tensorflow/models/blob/master/research/object_detection/data/
 
 
 
-# 環境準備
+# 環境
 
 https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md#add-libraries-to-pythonpath
 
@@ -105,6 +105,23 @@ wrapt                  1.10.11
 # 毎回必要。source prepare_source.sh
 export PYTHONPATH=$PYTHONPATH:`pwd`/models/research:`pwd`/models/research/slim
 ```
+
+```sh
+# camera
+(coco) mac-air:detect_from_movie$ python detect_from_camera.py
+
+# movie
+# 同フォルダの、movie.m4vを処理し、output.m4vに出力
+(coco) mac-air:detect_from_movie$ python detect_from_movie.py
+```
+
+- 1fameに、10sec程度かかり遅い。（Mac book air）
+
+- 映像サイズを事前に小さくしても同様。サイズには依存していなさそう
+
+- tensorflowをソースビルドし、CPUの拡張命令を使用するようにし、3割程度は改善
+
+- cameraを使って、リアルタイムに検出は、GPUが必要と思われる
 
 
 
